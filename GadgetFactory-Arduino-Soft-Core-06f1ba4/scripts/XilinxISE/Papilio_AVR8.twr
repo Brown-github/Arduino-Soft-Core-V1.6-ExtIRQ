@@ -1,0 +1,724 @@
+--------------------------------------------------------------------------------
+Release 14.3 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+E:\Xilinx\14.3\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr
+Papilio_AVR8.pcf
+
+Design file:              Papilio_AVR8.ncd
+Physical constraint file: Papilio_AVR8.pcf
+Device,package,speed:     xc3s500e,vq100,-4 (PRODUCTION 1.27 2012-10-12)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "Inst_DCM32to16/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is  10.000ns.
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "Inst_DCM32to16/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 21.250ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 31.250ns
+  Low pulse: 15.625ns
+  Low pulse limit: 5.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: Inst_DCM32to16/DCM_SP_INST/CLKIN
+  Logical resource: Inst_DCM32to16/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: Inst_DCM32to16/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+Slack: 21.250ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 31.250ns
+  High pulse: 15.625ns
+  High pulse limit: 5.000ns (Tdcmpw_CLKIN_25_50)
+  Physical resource: Inst_DCM32to16/DCM_SP_INST/CLKIN
+  Logical resource: Inst_DCM32to16/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: Inst_DCM32to16/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+Slack: 27.084ns (period - min period limit)
+  Period: 31.250ns
+  Min period limit: 4.166ns (240.038MHz) (Tdcmpc)
+  Physical resource: Inst_DCM32to16/DCM_SP_INST/CLKIN
+  Logical resource: Inst_DCM32to16/DCM_SP_INST/CLKIN
+  Location pin: DCM_X0Y1.CLKIN
+  Clock network: Inst_DCM32to16/CLKIN_IBUFG
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "Inst_DCM32to16/CLKFX_BUF" derived 
+from  NET "Inst_DCM32to16/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;  multiplied 
+by 2.00 to 62.500 nS and duty cycle corrected to HIGH 31.250 nS  
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 372252447 paths analyzed, 2818 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is  39.700ns.
+--------------------------------------------------------------------------------
+
+Paths for end point AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (SLICE_X29Y14.F1), 4832863 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     11.400ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[1].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      19.829ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.021ns (0.120 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[1].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y9.DOA6     Tbcko                 2.812   DRAM_Inst/RAM_Inst[1].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[1].RAM_Byte.A
+    SLICE_X3Y70.F2       net (fanout=1)        0.892   DRAM_Inst/RAMBlDOut<1><6>
+    SLICE_X3Y70.X        Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.F1      net (fanout=1)        3.753   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<6>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>685
+    SLICE_X36Y55.F1      net (fanout=4)        0.446   AVR_Core_Inst/dbusin_int<6>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_G
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.Y       Tciny                 0.869   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<3>
+    SLICE_X29Y14.G4      net (fanout=3)        0.953   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<3>
+    SLICE_X29Y14.Y       Tilo                  0.704   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW0
+    SLICE_X29Y14.F1      net (fanout=1)        0.772   AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW0/O
+    SLICE_X29Y14.CLK     Tfck                  0.837   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    -------------------------------------------------  ---------------------------
+    Total                                     19.829ns (9.758ns logic, 10.071ns route)
+                                                       (49.2% logic, 50.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     11.950ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[0].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      19.279ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.021ns (0.120 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[0].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y8.DOA6     Tbcko                 2.812   DRAM_Inst/RAM_Inst[0].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[0].RAM_Byte.A
+    SLICE_X3Y70.F4       net (fanout=1)        0.342   DRAM_Inst/RAMBlDOut<0><6>
+    SLICE_X3Y70.X        Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.F1      net (fanout=1)        3.753   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<6>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>685
+    SLICE_X36Y55.F1      net (fanout=4)        0.446   AVR_Core_Inst/dbusin_int<6>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_G
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.Y       Tciny                 0.869   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<3>
+    SLICE_X29Y14.G4      net (fanout=3)        0.953   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<3>
+    SLICE_X29Y14.Y       Tilo                  0.704   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW0
+    SLICE_X29Y14.F1      net (fanout=1)        0.772   AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW0/O
+    SLICE_X29Y14.CLK     Tfck                  0.837   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    -------------------------------------------------  ---------------------------
+    Total                                     19.279ns (9.758ns logic, 9.521ns route)
+                                                       (50.6% logic, 49.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     12.709ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[1].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      18.520ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.021ns (0.120 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[1].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y9.DOA4     Tbcko                 2.812   DRAM_Inst/RAM_Inst[1].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[1].RAM_Byte.A
+    SLICE_X15Y62.F4      net (fanout=1)        1.730   DRAM_Inst/RAMBlDOut<1><4>
+    SLICE_X15Y62.X       Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+    SLICE_X36Y50.F3      net (fanout=1)        1.669   AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+    SLICE_X36Y50.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<4>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<4>647
+    SLICE_X36Y55.G1      net (fanout=4)        0.383   AVR_Core_Inst/dbusin_int<4>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_F
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.Y       Tciny                 0.869   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<3>
+    SLICE_X29Y14.G4      net (fanout=3)        0.953   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<3>
+    SLICE_X29Y14.Y       Tilo                  0.704   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW0
+    SLICE_X29Y14.F1      net (fanout=1)        0.772   AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW0/O
+    SLICE_X29Y14.CLK     Tfck                  0.837   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    -------------------------------------------------  ---------------------------
+    Total                                     18.520ns (9.758ns logic, 8.762ns route)
+                                                       (52.7% logic, 47.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4 (SLICE_X26Y16.F1), 5799367 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     11.589ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[1].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      19.639ns (Levels of Logic = 9)
+  Clock Path Skew:      -0.022ns (0.119 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[1].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y9.DOA6     Tbcko                 2.812   DRAM_Inst/RAM_Inst[1].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[1].RAM_Byte.A
+    SLICE_X3Y70.F2       net (fanout=1)        0.892   DRAM_Inst/RAMBlDOut<1><6>
+    SLICE_X3Y70.X        Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.F1      net (fanout=1)        3.753   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<6>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>685
+    SLICE_X36Y55.F1      net (fanout=4)        0.446   AVR_Core_Inst/dbusin_int<6>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_G
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<3>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<3>
+    SLICE_X25Y12.X       Tcinx                 0.462   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<4>
+    SLICE_X26Y16.G1      net (fanout=3)        0.979   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<4>
+    SLICE_X26Y16.Y       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4124_SW0
+    SLICE_X26Y16.F1      net (fanout=1)        0.735   AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4124_SW0/O
+    SLICE_X26Y16.CLK     Tfck                  0.892   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4
+    -------------------------------------------------  ---------------------------
+    Total                                     19.639ns (9.579ns logic, 10.060ns route)
+                                                       (48.8% logic, 51.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     12.139ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[0].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      19.089ns (Levels of Logic = 9)
+  Clock Path Skew:      -0.022ns (0.119 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[0].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y8.DOA6     Tbcko                 2.812   DRAM_Inst/RAM_Inst[0].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[0].RAM_Byte.A
+    SLICE_X3Y70.F4       net (fanout=1)        0.342   DRAM_Inst/RAMBlDOut<0><6>
+    SLICE_X3Y70.X        Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.F1      net (fanout=1)        3.753   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<6>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>685
+    SLICE_X36Y55.F1      net (fanout=4)        0.446   AVR_Core_Inst/dbusin_int<6>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_G
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<3>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<3>
+    SLICE_X25Y12.X       Tcinx                 0.462   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<4>
+    SLICE_X26Y16.G1      net (fanout=3)        0.979   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<4>
+    SLICE_X26Y16.Y       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4124_SW0
+    SLICE_X26Y16.F1      net (fanout=1)        0.735   AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4124_SW0/O
+    SLICE_X26Y16.CLK     Tfck                  0.892   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4
+    -------------------------------------------------  ---------------------------
+    Total                                     19.089ns (9.579ns logic, 9.510ns route)
+                                                       (50.2% logic, 49.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     12.898ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[1].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      18.330ns (Levels of Logic = 9)
+  Clock Path Skew:      -0.022ns (0.119 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[1].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y9.DOA4     Tbcko                 2.812   DRAM_Inst/RAM_Inst[1].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[1].RAM_Byte.A
+    SLICE_X15Y62.F4      net (fanout=1)        1.730   DRAM_Inst/RAMBlDOut<1><4>
+    SLICE_X15Y62.X       Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+    SLICE_X36Y50.F3      net (fanout=1)        1.669   AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+    SLICE_X36Y50.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<4>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<4>647
+    SLICE_X36Y55.G1      net (fanout=4)        0.383   AVR_Core_Inst/dbusin_int<4>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_F
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<3>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<3>
+    SLICE_X25Y12.X       Tcinx                 0.462   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<4>
+    SLICE_X26Y16.G1      net (fanout=3)        0.979   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<4>
+    SLICE_X26Y16.Y       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4124_SW0
+    SLICE_X26Y16.F1      net (fanout=1)        0.735   AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4124_SW0/O
+    SLICE_X26Y16.CLK     Tfck                  0.892   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<4>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>4171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_4
+    -------------------------------------------------  ---------------------------
+    Total                                     18.330ns (9.579ns logic, 8.751ns route)
+                                                       (52.3% logic, 47.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (SLICE_X29Y14.F3), 4832869 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     12.001ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[1].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      19.228ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.021ns (0.120 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[1].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y9.DOA6     Tbcko                 2.812   DRAM_Inst/RAM_Inst[1].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[1].RAM_Byte.A
+    SLICE_X3Y70.F2       net (fanout=1)        0.892   DRAM_Inst/RAMBlDOut<1><6>
+    SLICE_X3Y70.X        Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.F1      net (fanout=1)        3.753   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<6>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>685
+    SLICE_X36Y55.F1      net (fanout=4)        0.446   AVR_Core_Inst/dbusin_int<6>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_G
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.Y       Tciny                 0.869   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<3>
+    SLICE_X28Y15.F1      net (fanout=3)        1.046   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<3>
+    SLICE_X28Y15.X       Tilo                  0.759   N516
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW1
+    SLICE_X29Y14.F3      net (fanout=1)        0.023   N516
+    SLICE_X29Y14.CLK     Tfck                  0.837   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    -------------------------------------------------  ---------------------------
+    Total                                     19.228ns (9.813ns logic, 9.415ns route)
+                                                       (51.0% logic, 49.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     12.551ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[0].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      18.678ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.021ns (0.120 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[0].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y8.DOA6     Tbcko                 2.812   DRAM_Inst/RAM_Inst[0].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[0].RAM_Byte.A
+    SLICE_X3Y70.F4       net (fanout=1)        0.342   DRAM_Inst/RAMBlDOut<0><6>
+    SLICE_X3Y70.X        Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.F1      net (fanout=1)        3.753   AVR_Core_Inst/io_dec_Inst/dbusin_int<6>655
+    SLICE_X38Y54.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<6>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<6>685
+    SLICE_X36Y55.F1      net (fanout=4)        0.446   AVR_Core_Inst/dbusin_int<6>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_G
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.Y       Tciny                 0.869   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<3>
+    SLICE_X28Y15.F1      net (fanout=3)        1.046   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<3>
+    SLICE_X28Y15.X       Tilo                  0.759   N516
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW1
+    SLICE_X29Y14.F3      net (fanout=1)        0.023   N516
+    SLICE_X29Y14.CLK     Tfck                  0.837   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    -------------------------------------------------  ---------------------------
+    Total                                     18.678ns (9.813ns logic, 8.865ns route)
+                                                       (52.5% logic, 47.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     13.310ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               DRAM_Inst/RAM_Inst[1].RAM_Byte.A (RAM)
+  Destination:          AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3 (FF)
+  Requirement:          31.250ns
+  Data Path Delay:      17.919ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.021ns (0.120 - 0.141)
+  Source Clock:         clk16M falling at 31.250ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: DRAM_Inst/RAM_Inst[1].RAM_Byte.A to AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    RAMB16_X0Y9.DOA4     Tbcko                 2.812   DRAM_Inst/RAM_Inst[1].RAM_Byte
+                                                       DRAM_Inst/RAM_Inst[1].RAM_Byte.A
+    SLICE_X15Y62.F4      net (fanout=1)        1.730   DRAM_Inst/RAMBlDOut<1><4>
+    SLICE_X15Y62.X       Tilo                  0.704   AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+    SLICE_X36Y50.F3      net (fanout=1)        1.669   AVR_Core_Inst/io_dec_Inst/dbusin_int<4>617
+    SLICE_X36Y50.X       Tilo                  0.759   AVR_Core_Inst/BP_Inst/temp_in_data<4>
+                                                       AVR_Core_Inst/io_dec_Inst/dbusin_int<4>647
+    SLICE_X36Y55.G1      net (fanout=4)        0.383   AVR_Core_Inst/dbusin_int<4>
+    SLICE_X36Y55.X       Tif5x                 1.152   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107_F
+                                                       AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.F3      net (fanout=14)       2.310   AVR_Core_Inst/BP_Inst/bit_test_mux_out_7_mux0000107
+    SLICE_X30Y18.X       Tilo                  0.759   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>1
+    SLICE_X25Y10.F4      net (fanout=1)        0.945   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_mux0000<0>
+    SLICE_X25Y10.COUT    Topcyf                1.162   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_lut<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<0>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<1>
+    SLICE_X25Y11.Y       Tciny                 0.869   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_cy<2>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/Madd_program_counter_in_share0000_xor<3>
+    SLICE_X28Y15.F1      net (fanout=3)        1.046   AVR_Core_Inst/pm_fetch_dec_Inst/program_counter_in_share0000<3>
+    SLICE_X28Y15.X       Tilo                  0.759   N516
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3124_SW1
+    SLICE_X29Y14.F3      net (fanout=1)        0.023   N516
+    SLICE_X29Y14.CLK     Tfck                  0.837   AVR_Core_Inst/pm_fetch_dec_Inst/pc_low<3>
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/I66_cy<8>3171
+                                                       AVR_Core_Inst/pm_fetch_dec_Inst/pc_low_3
+    -------------------------------------------------  ---------------------------
+    Total                                     17.919ns (9.813ns logic, 8.106ns route)
+                                                       (54.8% logic, 45.2% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: PERIOD analysis for net "Inst_DCM32to16/CLKFX_BUF" derived from
+ NET "Inst_DCM32to16/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+ multiplied by 2.00 to 62.500 nS and duty cycle corrected to HIGH 31.250 nS 
+
+--------------------------------------------------------------------------------
+
+Paths for end point uart_Inst/Mshreg_UART_RcDel_St16 (SLICE_X46Y78.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.922ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               uart_Inst/UART_RcDel_St10 (FF)
+  Destination:          uart_Inst/Mshreg_UART_RcDel_St16 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.922ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk16M rising at 62.500ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: uart_Inst/UART_RcDel_St10 to uart_Inst/Mshreg_UART_RcDel_St16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X47Y75.XQ      Tcko                  0.473   uart_Inst/UART_RcDel_St10
+                                                       uart_Inst/UART_RcDel_St10
+    SLICE_X46Y78.BX      net (fanout=3)        0.598   uart_Inst/UART_RcDel_St10
+    SLICE_X46Y78.CLK     Tdh         (-Th)     0.149   uart_Inst/UART_RcDel_St161
+                                                       uart_Inst/Mshreg_UART_RcDel_St16
+    -------------------------------------------------  ---------------------------
+    Total                                      0.922ns (0.324ns logic, 0.598ns route)
+                                                       (35.1% logic, 64.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_7 (SLICE_X45Y34.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.930ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               ExtIRQ_Impl.ExtIRQ_Inst/INTxSA_7 (FF)
+  Destination:          ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_7 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.930ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk16M rising at 62.500ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: ExtIRQ_Impl.ExtIRQ_Inst/INTxSA_7 to ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_7
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X45Y35.XQ      Tcko                  0.473   ExtIRQ_Impl.ExtIRQ_Inst/INTxSA<7>
+                                                       ExtIRQ_Impl.ExtIRQ_Inst/INTxSA_7
+    SLICE_X45Y34.BX      net (fanout=1)        0.364   ExtIRQ_Impl.ExtIRQ_Inst/INTxSA<7>
+    SLICE_X45Y34.CLK     Tckdi       (-Th)    -0.093   ExtIRQ_Impl.ExtIRQ_Inst/INTxSB<7>
+                                                       ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_7
+    -------------------------------------------------  ---------------------------
+    Total                                      0.930ns (0.566ns logic, 0.364ns route)
+                                                       (60.9% logic, 39.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_3 (SLICE_X37Y26.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.931ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               ExtIRQ_Impl.ExtIRQ_Inst/INTxSA_3 (FF)
+  Destination:          ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_3 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.931ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk16M rising at 62.500ns
+  Destination Clock:    clk16M rising at 62.500ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: ExtIRQ_Impl.ExtIRQ_Inst/INTxSA_3 to ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X36Y27.XQ      Tcko                  0.474   ExtIRQ_Impl.ExtIRQ_Inst/INTxSA<3>
+                                                       ExtIRQ_Impl.ExtIRQ_Inst/INTxSA_3
+    SLICE_X37Y26.BX      net (fanout=1)        0.364   ExtIRQ_Impl.ExtIRQ_Inst/INTxSA<3>
+    SLICE_X37Y26.CLK     Tckdi       (-Th)    -0.093   ExtIRQ_Impl.ExtIRQ_Inst/INTxSB<3>
+                                                       ExtIRQ_Impl.ExtIRQ_Inst/INTxSB_3
+    -------------------------------------------------  ---------------------------
+    Total                                      0.931ns (0.567ns logic, 0.364ns route)
+                                                       (60.9% logic, 39.1% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: PERIOD analysis for net "Inst_DCM32to16/CLKFX_BUF" derived from
+ NET "Inst_DCM32to16/CLKIN_IBUFG" PERIOD = 31.25 ns HIGH 50%;
+ multiplied by 2.00 to 62.500 nS and duty cycle corrected to HIGH 31.250 nS 
+
+--------------------------------------------------------------------------------
+Slack: 59.324ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 62.500ns
+  Low pulse: 31.250ns
+  Low pulse limit: 1.588ns (Tbpwl)
+  Physical resource: PM_Inst/RAM_Word0/CLKA
+  Logical resource: PM_Inst/RAM_Word0.A/CLKA
+  Location pin: RAMB16_X0Y0.CLKA
+  Clock network: clk16M
+--------------------------------------------------------------------------------
+Slack: 59.324ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 62.500ns
+  High pulse: 31.250ns
+  High pulse limit: 1.588ns (Tbpwh)
+  Physical resource: PM_Inst/RAM_Word0/CLKA
+  Logical resource: PM_Inst/RAM_Word0.A/CLKA
+  Location pin: RAMB16_X0Y0.CLKA
+  Clock network: clk16M
+--------------------------------------------------------------------------------
+Slack: 59.324ns (period - min period limit)
+  Period: 62.500ns
+  Min period limit: 3.176ns (314.861MHz) (Tbp)
+  Physical resource: PM_Inst/RAM_Word0/CLKA
+  Logical resource: PM_Inst/RAM_Word0.A/CLKA
+  Location pin: RAMB16_X0Y0.CLKA
+  Clock network: clk16M
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for Inst_DCM32to16/CLKIN_IBUFG
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|Inst_DCM32to16/CLKIN_IBUFG     |     31.250ns|     10.000ns|     19.850ns|            0|            0|            0|    372252447|
+| Inst_DCM32to16/CLKFX_BUF      |     62.500ns|     39.700ns|          N/A|            0|            0|    372252447|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |   38.705|   19.850|    8.416|         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 372252447 paths, 0 nets, and 10883 connections
+
+Design statistics:
+   Minimum period:  39.700ns{1}   (Maximum frequency:  25.189MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Mon Feb 04 23:16:14 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 216 MB
+
+
+

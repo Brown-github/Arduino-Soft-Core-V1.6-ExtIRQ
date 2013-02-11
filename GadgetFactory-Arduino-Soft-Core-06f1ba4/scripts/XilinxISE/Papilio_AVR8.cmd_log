@@ -1,0 +1,444 @@
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+xst -intstyle ise -ifn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.xst" -ofn "E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+vhdtdtfi -lib work ../../sources/CommonPacks/SynthCtrlPack.vhd -lib work ../../sources/JTAG_OCD_Prg/JTAGTAPCtrlSMPack.vhd -lib work ../../sources/JTAG_OCD_Prg/JTAGProgrammerPack.vhd -lib work ../../sources/JTAG_OCD_Prg/JTAGPack.vhd -lib work ../../sources/JTAG_OCD_Prg/JTAGDataPack.vhd -lib work ../../sources/CommonPacks/AVRuCPackage.vhd -lib work ../../sources/Peripheral/SynchronizerLatch.vhd -lib work ../../sources/Peripheral/SynchronizerDFF.vhd -lib work ../../sources/Peripheral/SynchronizerCompPack.vhd -lib work ../../sources/Memory/prog_mem_init.vhd -lib work ../../sources/MemArbAndMux/MemAccessCtrlPack.vhd -lib work ../../sources/JTAG_OCD_Prg/Resync1b_TCK.vhd -lib work ../../sources/JTAG_OCD_Prg/Resync1b_cp2.vhd -lib work ../../sources/JTAG_OCD_Prg/OCDProgTCK.vhd -lib work ../../sources/JTAG_OCD_Prg/OCDProgcp2.vhd -lib work ../../sources/JTAG_OCD_Prg/JTAGCompPack.vhd -lib work ../../sources/Core/reg_file.vhd -lib work ../../sources/Core/pm_fetch_dec.vhd -lib work ../../sources/Core/io_reg_file.vhd -lib work ../../sources/Core/io_adr_dec.vhd -lib work ../../sources/Core/bit_processor.vhd -lib work ../../sources/Core/AVR_Core_CompPack.vhd -lib work ../../sources/Core/alu_avr.vhd -lib work ../../submodules/papilio_core_template/sources/papilio_core_template.vhd -lib work ../../sources/uC/ResetGenerator.vhd -lib work ../../sources/uC/RAMDataReg.vhd -lib work ../../sources/uC/external_mux.vhd -lib work ../../sources/uC/AVR_uC_CompPack.vhd -lib work ../../sources/Peripheral/uart.vhd -lib work ../../sources/Peripheral/Timer_Counter.vhd -lib work ../../sources/Peripheral/portx.vhd -lib work ../../sources/Peripheral/ExtIRQ_Controller.vhd -lib work ../../sources/Memory/XPM8Kx16.vhd -lib work ../../sources/Memory/XMemCompPack.vhd -lib work ../../sources/Memory/XDM4Kx8.vhd -lib work ../../sources/MemArbAndMux/RAMAdrDcd.vhd -lib work ../../sources/MemArbAndMux/MemRdMux.vhd -lib work ../../sources/MemArbAndMux/MemAccessCompPack.vhd -lib work ../../sources/MemArbAndMux/ArbiterAndMux.vhd -lib work ../../sources/JTAG_OCD_Prg/JTAGOCDPrgTop.vhd -lib work ../../sources/Core/avr_core.vhd -lib work ../../sources/uC/Papilio_AVR8.vhd -prj Papilio_AVR8-500K -o Papilio_AVR8.spl -module Papilio_AVR8 -template E:/Xilinx/14.3/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Papilio_AVR8.spl E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/Papilio_AVR8.sym 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Papilio_One.ucf -bm Papilio_AVR8.bmm -p xc3s500e-vq100-4 Papilio_AVR8.ngc Papilio_AVR8.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o Papilio_AVR8_map.ncd Papilio_AVR8.ngd Papilio_AVR8.pcf 
+par -w -intstyle ise -ol high -t 1 Papilio_AVR8_map.ncd Papilio_AVR8.ncd Papilio_AVR8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Papilio_AVR8.twx Papilio_AVR8.ncd -o Papilio_AVR8.twr Papilio_AVR8.pcf 
+bitgen -intstyle ise -f Papilio_AVR8.ut Papilio_AVR8.ncd 

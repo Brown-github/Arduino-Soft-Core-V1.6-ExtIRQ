@@ -1,0 +1,300 @@
+V3 186
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/DCM32to16.vhd 2013/01/25.18:17:04 P.40xd
+EN work/DCM32to16 1359973895 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/DCM32to16.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/NUMERIC_STD 1350103249 LB UNISIM \
+      PH unisim/VCOMPONENTS 1350103252
+AR work/DCM32to16/BEHAVIORAL 1359973896 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/DCM32to16.vhd \
+      EN work/DCM32to16 1359973895 CP BUFG CP IBUFG CP DCM_SP
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/scripts/XilinxISE/ExtIRQ_Controller2.vhd 2013/01/27.03:07:48 P.40xd
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/CommonPacks/AVRuCPackage.vhd 2011/05/03.13:38:14 P.40xd
+PH work/AVRuCPackage 1359973857 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/CommonPacks/AVRuCPackage.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/std_logic_arith 1350103244 \
+      PH work/SynthCtrlPack 1359973855
+PB work/AVRuCPackage 1359973858 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/CommonPacks/AVRuCPackage.vhd \
+      PH work/AVRuCPackage 1359973857
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/CommonPacks/SynthCtrlPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/SynthCtrlPack 1359973855 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/CommonPacks/SynthCtrlPack.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/std_logic_arith 1350103244
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/alu_avr.vhd 2011/05/03.13:38:14 P.40xd
+EN work/alu_avr 1359973890 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/alu_avr.vhd \
+      PB ieee/std_logic_1164 1350103243
+AR work/alu_avr/rtl 1359973891 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/alu_avr.vhd \
+      EN work/alu_avr 1359973890
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/avr_core.vhd 2011/05/03.13:38:14 P.40xd
+EN work/AVR_Core 1359973899 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/avr_core.vhd \
+      PB ieee/std_logic_1164 1350103243 PH work/AVR_Core_CompPack 1359973879
+AR work/avr_core/Struct 1359973900 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/avr_core.vhd \
+      EN work/AVR_Core 1359973899 CP pm_fetch_dec CP reg_file CP bit_processor \
+      CP io_adr_dec CP io_reg_file CP alu_avr
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/AVR_Core_CompPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/AVR_Core_CompPack 1359973879 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/AVR_Core_CompPack.vhd \
+      PB ieee/std_logic_1164 1350103243 CD pm_fetch_dec CD alu_avr CD reg_file \
+      CD io_reg_file CD bit_processor CD io_adr_dec
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/bit_processor.vhd 2011/05/03.13:38:14 P.40xd
+EN work/bit_processor 1359973884 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/bit_processor.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247
+AR work/bit_processor/RTL 1359973885 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/bit_processor.vhd \
+      EN work/bit_processor 1359973884
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/io_adr_dec.vhd 2011/05/03.13:38:14 P.40xd
+EN work/io_adr_dec 1359973886 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/io_adr_dec.vhd \
+      PB ieee/std_logic_1164 1350103243 PB work/AVRuCPackage 1359973858
+AR work/io_adr_dec/RTL 1359973887 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/io_adr_dec.vhd \
+      EN work/io_adr_dec 1359973886
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/io_reg_file.vhd 2011/05/03.13:38:14 P.40xd
+EN work/io_reg_file 1359973888 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/io_reg_file.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PB work/AVRuCPackage 1359973858
+AR work/io_reg_file/rtl 1359973889 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/io_reg_file.vhd \
+      EN work/io_reg_file 1359973888
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/pm_fetch_dec.vhd 2011/05/03.13:38:14 P.40xd
+EN work/pm_fetch_dec 1359973880 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/pm_fetch_dec.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PB work/AVRuCPackage 1359973858
+AR work/pm_fetch_dec/RTL 1359973881 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/pm_fetch_dec.vhd \
+      EN work/pm_fetch_dec 1359973880
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/reg_file.vhd 2011/05/03.13:38:14 P.40xd
+EN work/reg_file 1359973882 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/reg_file.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PH work/SynthCtrlPack 1359973855
+AR work/reg_file/RTL 1359973883 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Core/reg_file.vhd \
+      EN work/reg_file 1359973882
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGCompPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/JTAGCompPack 1359973864 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGCompPack.vhd \
+      PB ieee/std_logic_1164 1350103243 CD OCDProgTCK CD OCDProgcp2 CD Resync1b_cp2 \
+      CD Resync1b_TCK CD Resync16b_TCK
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGDataPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/JTAGDataPack 1359973860 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGDataPack.vhd \
+      PB ieee/std_logic_1164 1350103243
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGOCDPrgTop.vhd 2011/05/03.13:38:14 P.40xd
+EN work/JTAGOCDPrgTop 1359973917 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGOCDPrgTop.vhd \
+      PB ieee/std_logic_1164 1350103243 PH work/JTAGCompPack 1359973864
+AR work/JTAGOCDPrgTop/RTL 1359973918 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGOCDPrgTop.vhd \
+      EN work/JTAGOCDPrgTop 1359973917 CP OCDProgTCK CP OCDProgcp2 CP Resync1b_cp2 \
+      CP Resync1b_TCK
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/JTAGPack 1359973856 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGPack.vhd \
+      PB ieee/std_logic_1164 1350103243
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGProgrammerPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/JTAGProgrammerPack 1359973859 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGProgrammerPack.vhd \
+      PB ieee/std_logic_1164 1350103243
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGTAPCtrlSMPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/JTAGTAPCtrlSMPack 1359973861 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGTAPCtrlSMPack.vhd \
+      PB ieee/std_logic_1164 1350103243
+PB work/JTAGTAPCtrlSMPack 1359973862 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/JTAGTAPCtrlSMPack.vhd \
+      PH work/JTAGTAPCtrlSMPack 1359973861
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/OCDProgcp2.vhd 2011/05/03.13:38:14 P.40xd
+EN work/OCDProgcp2 1359973867 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/OCDProgcp2.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PH work/JTAGPack 1359973856 PB work/AVRuCPackage 1359973858
+AR work/OCDProgcp2/RTL 1359973868 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/OCDProgcp2.vhd \
+      EN work/OCDProgcp2 1359973867
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/OCDProgTCK.vhd 2011/05/03.13:38:14 P.40xd
+EN work/OCDProgTCK 1359973865 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/OCDProgTCK.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PH work/JTAGPack 1359973856 PH work/JTAGProgrammerPack 1359973859 \
+      PH work/JTAGDataPack 1359973860 PB work/JTAGTAPCtrlSMPack 1359973862
+AR work/OCDProgTCK/RTL 1359973866 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/OCDProgTCK.vhd \
+      EN work/OCDProgTCK 1359973865
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/Resync1b_cp2.vhd 2011/05/03.13:38:14 P.40xd
+EN work/Resync1b_cp2 1359973869 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/Resync1b_cp2.vhd \
+      PB ieee/std_logic_1164 1350103243
+AR work/Resync1b_cp2/RTL 1359973870 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/Resync1b_cp2.vhd \
+      EN work/Resync1b_cp2 1359973869
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/Resync1b_TCK.vhd 2011/05/03.13:38:14 P.40xd
+EN work/Resync1b_TCK 1359973871 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/Resync1b_TCK.vhd \
+      PB ieee/std_logic_1164 1350103243
+AR work/Resync1b_TCK/RTL 1359973872 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/JTAG_OCD_Prg/Resync1b_TCK.vhd \
+      EN work/Resync1b_TCK 1359973871
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/ArbiterAndMux.vhd 2011/05/03.13:38:14 P.40xd
+EN work/ArbiterAndMux 1359973921 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/ArbiterAndMux.vhd \
+      PB ieee/std_logic_1164 1350103243 PH work/MemAccessCtrlPack 1359973863
+AR work/ArbiterAndMux/RTL 1359973922 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/ArbiterAndMux.vhd \
+      EN work/ArbiterAndMux 1359973921
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/MemAccessCompPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/MemAccessCompPack 1359973894 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/MemAccessCompPack.vhd \
+      PB ieee/std_logic_1164 1350103243 PH work/MemAccessCtrlPack 1359973863 \
+      CD ArbiterAndMux CD MemRdMux CD RAMAdrDcd
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/MemAccessCtrlPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/MemAccessCtrlPack 1359973863 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/MemAccessCtrlPack.vhd \
+      PB ieee/std_logic_1164 1350103243
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/MemRdMux.vhd 2011/05/03.13:38:14 P.40xd
+EN work/MemRdMux 1359973923 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/MemRdMux.vhd \
+      PB ieee/std_logic_1164 1350103243 PH work/MemAccessCtrlPack 1359973863
+AR work/MemRdMux/RTL 1359973924 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/MemRdMux.vhd \
+      EN work/MemRdMux 1359973923
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/RAMAdrDcd.vhd 2011/05/03.13:38:14 P.40xd
+EN work/RAMAdrDcd 1359973925 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/RAMAdrDcd.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PH work/MemAccessCtrlPack 1359973863
+AR work/RAMAdrDcd/RTL 1359973926 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/MemArbAndMux/RAMAdrDcd.vhd \
+      EN work/RAMAdrDcd 1359973925
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/prog_mem_init.vhd 2011/05/03.13:38:14 P.40xd
+PH work/prog_mem_init_pkg 1359973873 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/prog_mem_init.vhd \
+      PB ieee/std_logic_1164 1350103243
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XDM4Kx8.vhd 2011/05/03.13:38:14 P.40xd
+EN work/XDM4Kx8 1359973913 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XDM4Kx8.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PH work/SynthCtrlPack 1359973855 LB UNISIM PH unisim/VCOMPONENTS 1350103252
+AR work/XDM4Kx8/RTL 1359973914 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XDM4Kx8.vhd \
+      EN work/XDM4Kx8 1359973913 CP RAMB16_S9
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XMemCompPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/XMemCompPack 1359973893 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XMemCompPack.vhd \
+      PB ieee/std_logic_1164 1350103243 CD XPM16Kx16 CD XDM16Kx8 CD XDM32Kx8 \
+      CD XPM4Kx16
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XPM8Kx16.vhd 2011/05/03.13:38:14 P.40xd
+EN work/XPM8Kx16 1359973915 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XPM8Kx16.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PH work/SynthCtrlPack 1359973855 PH work/prog_mem_init_pkg 1359973873 \
+      LB UNISIM PH unisim/VCOMPONENTS 1350103252
+AR work/XPM8Kx16/RTL 1359973916 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Memory/XPM8Kx16.vhd \
+      EN work/XPM8Kx16 1359973915 CP RAMB16_S18
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/ExtIRQ_Controller.vhd 2013/02/01.19:05:01 P.40xd
+EN work/ExtIRQ_Controller 1359973907 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/ExtIRQ_Controller.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PB work/AVRuCPackage 1359973858
+AR work/ExtIRQ_Controller/Behavioral 1359973908 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/ExtIRQ_Controller.vhd \
+      EN work/ExtIRQ_Controller 1359973907
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/portx.vhd 2013/02/01.20:56:22 P.40xd
+EN work/pport 1359973905 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/portx.vhd \
+      PB ieee/std_logic_1164 1350103243 PB work/AVRuCPackage 1359973858 \
+      PH work/SynthCtrlPack 1359973855 PH work/SynchronizerCompPack 1359973874
+AR work/pport/RTL 1359973906 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/portx.vhd \
+      EN work/pport 1359973905 CP SynchronizerDFF CP SynchronizerLatch
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerCompPack.vhd 2011/05/03.13:38:14 P.40xd
+PH work/SynchronizerCompPack 1359973874 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerCompPack.vhd \
+      PB ieee/std_logic_1164 1350103243 CD SynchronizerLatch CD SynchronizerDFF
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerDFF.vhd 2011/05/03.13:38:14 P.40xd
+EN work/SynchronizerDFF 1359973875 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerDFF.vhd \
+      PB ieee/std_logic_1164 1350103243
+AR work/SynchronizerDFF/RTL 1359973876 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerDFF.vhd \
+      EN work/SynchronizerDFF 1359973875
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerLatch.vhd 2011/05/03.13:38:14 P.40xd
+EN work/SynchronizerLatch 1359973877 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerLatch.vhd \
+      PB ieee/std_logic_1164 1350103243
+AR work/SynchronizerLatch/RTL 1359973878 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/SynchronizerLatch.vhd \
+      EN work/SynchronizerLatch 1359973877
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/Timer_Counter.vhd 2011/05/03.13:38:14 P.40xd
+EN work/Timer_Counter 1359973909 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/Timer_Counter.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PB work/AVRuCPackage 1359973858
+AR work/Timer_Counter/RTL 1359973910 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/Timer_Counter.vhd \
+      EN work/Timer_Counter 1359973909
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/uart.vhd 2011/05/03.13:38:14 P.40xd
+EN work/uart 1359973919 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/uart.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PB work/AVRuCPackage 1359973858
+AR work/uart/RTL 1359973920 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/Peripheral/uart.vhd \
+      EN work/uart 1359973919
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/AVR_uC_CompPack.vhd 2013/02/01.20:53:39 P.40xd
+PH work/AVR_uC_CompPack 1359973892 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/AVR_uC_CompPack.vhd \
+      PB ieee/std_logic_1164 1350103243 PB work/AVRuCPackage 1359973858 CD pport \
+      CD external_mux CD RAMDataReg CD Timer_Counter CD ExtIRQ_Controller \
+      CD AVR_Core CD ResetGenerator CD PROM CD DataRAM CD CPUWaitGenerator \
+      CD ClockSwitch CD JTAGOCDPrgTop CD uart CD FrqDiv
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/external_mux.vhd 2013/01/27.04:42:26 P.40xd
+EN work/external_mux 1359973903 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/external_mux.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/STD_LOGIC_UNSIGNED 1350103247 \
+      PB work/AVRuCPackage 1359973858
+AR work/external_mux/RTL 1359973904 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/external_mux.vhd \
+      EN work/external_mux 1359973903
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/Papilio_AVR8.vhd 2013/02/04.04:30:48 P.40xd
+EN work/Papilio_AVR8 1359973927 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/Papilio_AVR8.vhd \
+      PB ieee/std_logic_1164 1350103243 PB work/AVRuCPackage 1359973858 \
+      PH work/AVR_uC_CompPack 1359973892 PH work/SynthCtrlPack 1359973855 \
+      PH work/XMemCompPack 1359973893 PH work/MemAccessCtrlPack 1359973863 \
+      PH work/MemAccessCompPack 1359973894
+AR work/Papilio_AVR8/Struct 1359973928 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/Papilio_AVR8.vhd \
+      EN work/Papilio_AVR8 1359973927 CP DCM32to16 CP papilio_core_template \
+      CP AVR_Core CP RAMDataReg CP external_mux CP pport CP ExtIRQ_Controller \
+      CP Timer_Counter CP ResetGenerator CP XDM4Kx8 CP XPM8Kx16 CP JTAGOCDPrgTop \
+      CP uart CP ArbiterAndMux CP MemRdMux CP RAMAdrDcd
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/RAMDataReg.vhd 2011/05/03.13:38:14 P.40xd
+EN work/RAMDataReg 1359973901 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/RAMDataReg.vhd \
+      PB ieee/std_logic_1164 1350103243
+AR work/RAMDataReg/RTL 1359973902 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/RAMDataReg.vhd \
+      EN work/RAMDataReg 1359973901
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/ResetGenerator.vhd 2011/05/03.13:38:14 P.40xd
+EN work/ResetGenerator 1359973911 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/ResetGenerator.vhd \
+      PB ieee/std_logic_1164 1350103243 PH work/SynthCtrlPack 1359973855
+AR work/ResetGenerator/RTL 1359973912 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/sources/uC/ResetGenerator.vhd \
+      EN work/ResetGenerator 1359973911
+FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/submodules/papilio_core_template/sources/papilio_core_template.vhd 2011/05/03.13:38:14 P.40xd
+EN work/papilio_core_template 1359973897 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/submodules/papilio_core_template/sources/papilio_core_template.vhd \
+      PB ieee/std_logic_1164 1350103243 PB ieee/std_logic_arith 1350103244 \
+      PB ieee/STD_LOGIC_UNSIGNED 1350103247
+AR work/papilio_core_template/Behavioral 1359973898 \
+      FL E:/Xilinx_projects/GadgetFactory-Arduino-Soft-Core-v1.6-0-ga7f9bf7/GadgetFactory-Arduino-Soft-Core-06f1ba4/submodules/papilio_core_template/sources/papilio_core_template.vhd \
+      EN work/papilio_core_template 1359973897

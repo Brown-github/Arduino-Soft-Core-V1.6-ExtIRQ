@@ -1,0 +1,13 @@
+[Inputs]
+nrst
+clk
+rxd
+[Outputs]
+txd
+[BiDir]
+=porta[7:0]=
+=portb[7:0]=
+=portc[7:0]=
+=portd[7:0]=
+=porte[7:0]=
+=portf[7:0]=
